@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+
+
 # Categorical to numerical Coercion
 
 def ca_coe(dfInput,infVariable,trgtVariable):
